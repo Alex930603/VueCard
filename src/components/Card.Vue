@@ -6,7 +6,7 @@ export default {
 
   name: "Card",
 
-  components: {
+  components: {   /* Il componente bottone, dato che è stato richiamato prima in un componente child ,necessità di essere dichiarato in components. */
     Bottone
   },
 
